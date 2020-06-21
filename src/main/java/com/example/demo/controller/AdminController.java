@@ -44,7 +44,6 @@ import javassist.NotFoundException;
  *
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 @RequestMapping("/admin")
 public class AdminController {
 
